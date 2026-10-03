@@ -4,8 +4,6 @@ Which Premier League players are paid far more, or far less, than their 2025-26 
 
 **Interactive dashboard:** <https://public.tableau.com/app/profile/aman.kassa/viz/WagesvsPerformance/WagesvsPerformance#1>
 
-![Most overpaid players](images/The 10 most overpaid Premier League players, 2025-26 Actual vs expected wage based on on-pitch performance.png) ![Most underpaid players](images/The 10 most underpaid Premier League players, 2025-26 Actual vs expected wage based on on-pitch performance.png)
-
 <img width="1109" height="386" alt="Screenshot 2026-10-03 at 12 17 13 PM" src="https://github.com/user-attachments/assets/edecf403-8b94-4f93-89ec-408fd8084979" />
 <img width="932" height="321" alt="Screenshot 2026-10-03 at 12 17 33 PM" src="https://github.com/user-attachments/assets/29d145f1-14c3-41cb-bf38-ebf9661101a8" />
 

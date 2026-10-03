@@ -21,7 +21,7 @@ Which Premier League players are paid far more, or far less, than their 2025-26 
     - Penalty goals and penalty xG are removed, so penalty takers don't get easy credit
     - Scores are pulled toward average for players with fewer minutes, since a strong half-season is less certain than a strong full season
 4.  **Estimate expected wage.** Within each role, a player who performs X steps above the role average is expected to earn X steps above the role's average wage, scaled down by half to stay conservative.
-5.  **Rank over- and underpaid players** by `actual wage ÷ expected wage`.
+5.  **Rank over and underpaid players** by `actual wage ÷ expected wage`.
 
 **Perf score:** 2025-26 performance vs the average player in the same role. 0 = average, higher is better.
 
@@ -31,7 +31,6 @@ Which Premier League players are paid far more, or far less, than their 2025-26 
 - Stats are not adjusted for team possession, so defenders on dominant teams may be underrated.
 - Wages also reflect reputation, commercial value and contract timing, which on-pitch stats can't capture. True outliers like Haaland have no comparable player, so their expected wage is likely too low.
 - Only players with 1,500+ minutes are judged, so injured players are left out.
-- Superstars like Haaland have no comparable peer in the data, so their expected wage is likely understated.
 
 ## Data sources
 

@@ -32,6 +32,16 @@ Which Premier League players are paid far more, or far less, than their 2025-26 
 - Wages also reflect reputation, commercial value and contract timing, which on-pitch stats can't capture. True outliers like Haaland have no comparable player, so their expected wage is likely too low.
 - Only players with 1,500+ minutes are judged, so injured players are left out.
 
+## SQL analysis
+
+After the notebook runs, `build_db.py` loads the raw data and results into a SQLite database and runs `sql/analysis.sql`:
+
+- Joins raw stats to Transfermarkt roles
+- Ranks players within each role by performance and wage (`RANK()`, `ROW_NUMBER()` window functions, CTEs)
+- Reports top over/underpaid players, pay by role, and club wage efficiency (total wages vs expected)
+
+Club wage efficiency is exported to `data/output/sql_club_efficiency.csv`. Wolves and Brentford get the most performance per pound; Manchester United and Arsenal the least.
+
 ## Data sources
 
 - Player stats: [EPL 2025-26 Player Stats (Kaggle)](https://www.kaggle.com/datasets/sananmuzaffarov/epl-202526-player-stats-gw131)
